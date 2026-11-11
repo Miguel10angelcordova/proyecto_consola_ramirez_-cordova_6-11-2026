@@ -10,7 +10,7 @@ Public class Personaje
 Personaje personaje = new Personaje
 {
    Nombre = "Guerrero",
-   Vida = -100, //error para romper el codigo
+   Vida = 100, //error para romper el codigo //codigo reparado 
    Defensa = 30,
    Nivel = 1
 };
