@@ -7,3 +7,10 @@ Public class Personaje
     Public int Nivel {get; set;}
 }
 
+Personaje personaje = new Personaje
+{
+   Nombre = "Guerrero",
+   Vida = -100, //error para romper el codigo
+   Defensa = 30,
+   Nivel = 1
+};
